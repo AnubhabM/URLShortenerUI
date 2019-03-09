@@ -1,0 +1,16 @@
+#input{
+    background-color: aqua;
+    height:auto;
+    margin: 10px;
+    padding: 40px;
+    font-family: "helvetica";
+}
+#input-label{
+   margin: 10px;
+   padding: 10px;
+}
+
+#generateButton{
+    margin: 10px;
+    
+}

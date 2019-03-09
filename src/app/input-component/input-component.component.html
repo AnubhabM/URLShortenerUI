@@ -1,0 +1,16 @@
+<div id="input">
+  <div name="description">
+    <p>
+      Generates Short URL.
+    </p>
+  </div>
+  <div>
+    <label id="input-label"> Enter URL:</label>
+    <input name="urlInput" type="text" [(ngModel)]="bigUrl">
+    <button id="generateButton" (click)="getShortUrl()">Generate</button>
+  </div>
+  <div>
+    <p name="outputUrl">{{shortUrl}}</p>
+  </div>
+
+</div>
